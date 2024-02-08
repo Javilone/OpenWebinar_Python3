@@ -27,3 +27,9 @@ print("\n")
 # 15 - Dadas dos variables numéricas A y B, que el usuario debe teclear, se pide realizar un algoritmo 
 # que intercambie los valores de ambas variables y muestre cuanto valen al final las dos variables.
 # Igual al ejercicio anterior
+varA = int(input("Introduce un numero entero para el valor A: "))
+varB = int(input("Introduce otro valor numérico para el valor B: "))
+varC = varA
+varA = varB
+varB = varC
+print(f"Ahora tu valor A equivale {varA} y tu valor B equivale a {varB}")
